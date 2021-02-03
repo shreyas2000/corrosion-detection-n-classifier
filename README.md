@@ -26,12 +26,25 @@ Working code for this model is under process and testing. Other algorithm like e
 
 # Convolutional Neural Network
 
+CNN is the most common method used in deep learning for computer vision. In CNN, we take an image as an input, assign importance to its various aspects/features in the image and be able to differentiate one from another. The pre-processing required in CNN is much lesser as compared to other classification algorithms.
+## Convolutional layer:
+The main objective of convolution is to extract features such as edges, colours, corners from the input. As we go deeper inside the network, the network starts identifying more complex features such as shapes,digits, face parts as well.
 
+## Pooling Layer:
+This layer is solely to decrease the computational power required to process the data. It is done by decreasing the dimensions of the featured matrix even more. In this layer, we try to extract the dominant features from a restricted amount of neighborhood.
 
+## Fully connected layer:
+Till now we haven’t done anything about classifying different images, what we have done is highlighted some features in an image and reduces the dimensions of the image drastically.Now that we have converted our input image into a suitable form for our Multi-Level fully connected architecture, we shall flatten the image into one column vector. The flattened output is fed to a feed-forward neural network and backpropagation applied to every iteration of training. Over a series of epochs, the model can distinguish between dominating and certain low-level features in images and classify them.
+
+Since cnn is a supervised learning method , it requires data to be trained in order to classify images.
+If you want to contribute to dataset just put a pull request.
 
 # __
-it is an ongoing project and all work and code will be uploaded soon.
-A working demo of this application hosted on the github page where all techinalities will also be explaned .
+it is an ongoing project and all work and code will be uploaded reularly.
+A working demo of this application will be hosted soon. 
+
+# Future Vision.
+Making it into a realtime application which can be used by a drone or mobile camera and detect corrosion instantly.
 
 Star this repo to learn about the new developements .
 Thanks for visiting.
